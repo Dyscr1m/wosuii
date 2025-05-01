@@ -1,22 +1,21 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>The Oasis</title>
-  <link rel="icon" href="favicon2.png" type="image/png">
+  <title>My Website</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       scroll-behavior: smooth;
+      background-color: #808080; /* Simple gray background */
     }
 
     nav {
       position: fixed;
       top: 0;
       width: 100%;
-      background-color: #333;
+      background-color: rgba(0, 0, 0, 0.7);
       padding: 1em;
       z-index: 1000;
     }
@@ -29,12 +28,14 @@
 
     section {
       padding: 100px 20px;
-      height: 100vh;
+      min-height: 100vh;
+      color: white;
+      backdrop-filter: brightness(0.8);
     }
 
-    #home { background: #f4f4f4; }
-    #downloads { background: #ddd; }
-    #about { background: #bbb; }
+    #home { background-color: rgba(0,0,0,0.3); }
+    #downloads { background-color: rgba(0,0,0,0.4); }
+    #about { background-color: rgba(0,0,0,0.5); }
   </style>
 </head>
 <body>
@@ -46,7 +47,7 @@
   </nav>
 
   <section id="home">
-    <h1>Welcome to The Oasis</h1>
+    <h1>Welcome to My Website</h1>
     <p>This is the home section.</p>
   </section>
 
